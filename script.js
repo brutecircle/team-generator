@@ -4,3 +4,6 @@ const team = [ "Talent", "Talen", "alen", "Tlen", "Ten",
 
 // number of people in each team array / teams 
 
+let numberOfPeopleInTeams = 3;
+// randomize the team array 
+let randomize = team.sort(() => Math.random() - 0.5);
