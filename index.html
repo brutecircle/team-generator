@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main content  -->
+    <form class="form-signin">
+      <div class="text-center mb-4">
+        <img
+          class="mb-4"
+          src="https://cdn1.iconfinder.com/data/icons/office-and-business-14/48/86-512.png"
+          alt=""
+          width="72"
+          height="72"
+        />
+        <h1 class="h3 mb-3 font-weight-normal">Team Generator</h1>
+        <p>
+          Enter the names of the team members in the fields then the number of
+          teams
+        </p>
+      </div>
+
+      <div class="form-group">
+        <label for="formGroupExampleInput"> Enter names</label>
+        <input
+          type="text"
+          class="form-control"
+          id="formGroupExampleInput"
+          placeholder="Use ' , ' between names "
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Number of Teams</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+
+      <button class="btn btn-lg btn-primary btn-block" type="submit">
+        Generate
+      </button>
+      <footer>
+        <p class="mt-5 mb-3 text-muted text-center">&copy; Team Generator 
+            <script>document.write(new Date().getFullYear())</script>
+
+        </p>
+      </footer>
+  
+    </form>
+    <!-- Main content  -->
+    <!-- print results here -->
+    <!-- <div class="form-group">
+        <label for="exampleFormControlTextarea1">Teams</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div> -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
