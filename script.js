@@ -20,3 +20,6 @@ function genArray(arr, count) {
 let result = genArray(randomize, numberOfPeopleInTeams);
 console.log(result); //team names 
 console.log(result.length) //number of teams ge
+
+
+// next to put it into the dom 
